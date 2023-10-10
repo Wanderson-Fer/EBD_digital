@@ -8,6 +8,13 @@ class Pessoa:
     _genero: str
     _contato: str
 
+    def __init__(self, nome, endereco, data_nascimento, genero, contato):
+        self._nome = nome
+        self._endereco = endereco
+        self._data_nascimento = data_nascimento
+        self._genero = genero
+        self._contato = contato
+
     @property
     def nome(self) -> str:
         return self._nome
