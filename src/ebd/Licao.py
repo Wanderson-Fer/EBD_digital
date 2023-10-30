@@ -1,5 +1,5 @@
 from datetime import date
-from src.ebd.model.Classe import Classe
+from src.ebd.Classe import Classe
 
 
 class Licao:
